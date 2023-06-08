@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row{
+  display: flex;
+  gap: 20px;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.gap{
+  gap: 10px;
+}
+video{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
